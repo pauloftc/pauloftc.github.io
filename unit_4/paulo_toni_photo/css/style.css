@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Gilroy-ExtraBold;
+    src: url("fonts/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Gilroy-Light;
+    src: url("fonts/Gilroy-Light.otf") format("opentype");
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #1fbcdd;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+h1, h2, h3 {
+	font-family: 'Gilroy-ExtraBold', sans-serif;
+}
+
+p {
+	font-family: 'Gilroy-Light', sans-serif;
+	color: white;
+	letter-spacing: .05em;
+
+}
+
+header {
+	text-align: center;
+	margin-top: 15em;
+}
+
+header p {
+	margin-top: 1em;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+footer {
+	margin-top: 2em;
+}
+
+.navlinks{
+	font-family: 'Gilroy-Light', sans-serif;
+	color:#fff;
+	font-size: .8em;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	padding:.5em;
+	margin: 1em;
+    border: none;
+}
+
+
+#welcome_page {
+	background: url(../images/opera_house_vivid.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:750px;
+	padding:1em 0;
+}
+
+#welcome_box {
+	margin: auto;
+	text-align: center;
+
+}
+
+
+#about_me {
+	position: relative;
+	background: #5b318e;
+	color: white;
+	height: 750px;
+}
+
+
+#abm_box {
+	position: absolute;
+	margin: 10em 0 0 45em;
+	width: 25em;
+	text-align: left;
+}
+
+
+#about_me h1 {
+	color: #ec008c;
+	font-size: 4em;
+}
+
+#abm_hr {
+	border:none;
+	height:.5em;
+	background-color: #1fbcdd;
+	width:5em;
+	margin-top: 1.5em;
+}
+
+#about_me p {
+	margin-top: 2em;
+}
+
+
+
+#contact_me {
+	background: #1fbcdd;
+	color: white;
+	height: 550px;
+}
+
+#ctm_box {
+	position: absolute;
+	margin: 10em 0 0 15em;
+	width: 25em;
+	text-align: left;
+}
+
+#ctm_hr {
+	border:none;
+	height:.5em;
+	background-color: #5b318e;
+	width:5em;
+	margin-top: 1.5em;
+}
+
+#contact_me h1 {
+	color: #ec008c;
+	font-size: 4em;
+	letter-spacing: -0.02em;
+}
+
+
+.social {
+	width: 50px;
+}
+
+#hyper {
+	text-decoration: none;
+	font-family: 'Gilroy-ExtraBold', sans-serif;
+	color:  #5b318e;
+}
+
+
+
