@@ -1,12 +1,4 @@
-@font-face {
-    font-family: Gilroy-ExtraBold;
-    src: url("fonts/Gilroy-ExtraBold.otf") format("opentype");
-}
-
-@font-face {
-    font-family: Gilroy-Light;
-    src: url("fonts/Gilroy-Light.otf") format("opentype");
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,900');
 
 * {
 	margin: 0px;
@@ -20,11 +12,13 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: 'Gilroy-ExtraBold', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
 }
 
 p {
-	font-family: 'Gilroy-Light', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
 	color: white;
 	letter-spacing: .05em;
 
@@ -46,7 +40,8 @@ footer {
 }
 
 .navlinks{
-	font-family: 'Gilroy-Light', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
 	color:#fff;
 	font-size: .8em;
 	text-transform: uppercase;
@@ -144,8 +139,10 @@ footer {
 
 #hyper {
 	text-decoration: none;
-	font-family: 'Gilroy-ExtraBold', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
 	color:  #5b318e;
+	letter-spacing: -.2px;
 }
 
 
