@@ -1,0 +1,233 @@
+
+@font-face {
+    font-family: gilroyblack;
+    src: url(../fonts/gilroy_black.otf);
+}
+
+
+@font-face {
+    font-family: gilroylight;
+    src: url(../fonts/gilroy_light.otf);
+}
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+body {
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+
+
+main {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+
+	/*background: url(../images/opera_house_vivid.jpg) #6d6e71;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	height:750px;
+	padding: 1em 0 0 0;
+
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
+
+	padding-top: 2em;
+	text-align: left;
+}
+
+
+h1, h2, h3 {
+	font-family: 'gilroyblack', sans-serif;
+}
+
+
+
+p {
+	font-family: 'gilroylight', sans-serif;
+	color: white;
+	letter-spacing: .05em;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
+
+	text-align: center;
+	margin-top: 10em;
+}
+
+main p {
+	margin-top: 1em;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+
+figure	{
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+
+	/*background: #1fbcdd;*/
+	color: white;
+	height: 100%;
+	padding-bottom: 10%;
+}
+
+
+
+.navlinks {
+	display: block;
+	color:#fff;
+	font-family: 'gilroylight', sans-serif;
+	font-size: .8em;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+    border: none;
+    padding: .2em 2em;
+    margin: 0 2em;
+
+}
+
+
+
+header img {
+	width: 300px;
+}
+
+
+#about_me {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+
+
+	/*background: #5b318e;*/
+	height: 100%;
+	padding-bottom: 10em;
+}
+
+#abm_wrapper {
+	border: 1px black solid;
+    padding: 20px;
+
+	display: flex;
+	justify-content: center;
+	padding-top: 10em;
+}
+
+
+figure img {
+	padding-right: 40%;
+	width: 20em;
+	height: 20em;
+
+}
+
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+
+	width: 35%;
+	text-align: left;
+}
+
+
+#about_me h1 {
+	color: #ec008c;
+	font-size: 4em;
+	line-height: .7em;
+}
+
+
+#abm_hr {
+	border:none;
+	height:.5em;
+	background-color: #1fbcdd;
+	width:5em;
+	margin-top: 1em;
+}
+
+
+#about_me p {
+	margin-top: 2em;
+}
+
+
+
+#footer_content {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+
+	padding: 10em 0 0 15%;
+	width: 40%;
+	text-align: left;
+}
+
+
+#footer_content h1 {
+	color: #ec008c;
+	font-size: 4em;
+	line-height: .7em;
+}
+
+#ctm_hr {
+	border:none;
+	height:.5em;
+	background-color: #5b318e;
+	width:5em;
+	margin-top: 1em;
+}
+
+
+.social {
+	width: 50px;
+}
+
+
+#hyper {
+	text-decoration: none;
+	font-family: 'gilroyblack', sans-serif;
+	color: #5b318e;
+	letter-spacing: -.2px;
+}
+
+#social_para {
+	margin-top: 2em;
+}
+
+
+
