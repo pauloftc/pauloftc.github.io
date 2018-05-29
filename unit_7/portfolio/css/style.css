@@ -290,25 +290,57 @@ p #quote2 {
 	margin: auto;
 }
 
-#headline {
+#left_content {
 	float: left;
 	width: 25%;
 }
 
-#headline h1 {
+#heading h1 {
 	color: white;
 	font-size: 4em;
 	line-height: .7em;
 }
 
-#headline hr {
+#heading hr {
 	border:none;
 	height:.5em;
 	background-color: #ec008c;
 	width: 5em;
 	margin-top: .5em;
+	margin-bottom: 3em;
 }
 
+/*#button {
+	display: inline-block;
+}*/
+
+#arrowbutton_work {
+	color: #5b318e;
+	position: relative;
+	top: .15em;
+	font-size: 2em;
+	letter-spacing: -.1em;
+}
+
+
+#button_work a {
+	display: inline-block;
+    background-color: #ec008c;
+    font-family: avantbook, sans-serif;
+    text-transform: lowercase;
+    letter-spacing:.02em;
+    color: white;
+    padding: .2em 1em .5em;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+#button_work a:hover {
+	background-color: white;
+	color: #ec008c;
+}
 
 
 
@@ -482,9 +514,35 @@ aside p {
 	color: white;
 	columns: 2;
 	column-gap: 2em;
+	margin-bottom: 1.2em;
+}
+
+#button_about a {
+	display: inline-block;
+    background-color: #ec008c;
+    font-family: avantbook, sans-serif;
+    text-transform: lowercase;
+    letter-spacing:.02em;
+    color: white;
+    padding: .2em 1em .5em;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#arrowbutton {
+	position: relative;
+	top: .15em;
+	font-size: 2em;
+	color: #0099EF;
+	letter-spacing: -.1em;
 }
 
 
+#button_about a:hover {
+	background-color: white;
+	color: #ec008c;
+}
 
 
 /*Footer*/
@@ -539,6 +597,10 @@ footer {
 	letter-spacing: .2em;
 }
 
+#navfooter a:hover {
+	color: #B0B0B0;
+}
+
 #sociallogos_footer a {
 	display: block;
 	width: 30px;
@@ -552,6 +614,11 @@ footer {
 	height: 30px;
 }
 
+#instafooter:hover {
+	background: url(../images/icons/insta_lightgrey.svg);
+}
+
+
 #twitterfooter  {
 	display: inline-block;
 	background: url(../images/icons/twitter_white.svg);
@@ -560,11 +627,21 @@ footer {
 	height: 30px;
 }
 
+#twitterfooter:hover  {
+	display: inline-block;
+	background: url(../images/icons/twitter_lightgrey.svg);
+}
+
 #emailfooter  {
 	display: inline-block;
 	background: url(../images/icons/email_white.svg);
 	width: 30px;
 	height: 30px;
+}
+
+#emailfooter:hover  {
+	display: inline-block;
+	background: url(../images/icons/email_lightgrey.svg);
 }
 
 #footer_content p {
@@ -580,9 +657,12 @@ footer {
 
 @media only screen and (max-width: 1100px) {
 
+	.quotediv { 
+		padding: 3em 2em;
+	}
 
 	.quotediv p {
-		width: 95%;
+		width: 85%;
 		font-size: 2.5em;
 		line-height: 1.4em;
 	}
@@ -621,13 +701,13 @@ footer {
 		margin: auto;
 	}
 
-	#headline h1 {
+	#heading h1 {
 		color: white;
 		font-size: 3em;
 		line-height: .7em;
 	}
 
-	#headline hr {
+	#heading hr {
 		border:none;
 		height:.4em;
 		background-color: #ec008c;
@@ -635,14 +715,24 @@ footer {
 		margin-top: .5em;
 	}
 
-	#headline {
+	#left_content {
 		float: none;
+		width: 80%;
 		margin-bottom: 2em;
-		margin-left: 10%;
+		margin-left: auto;
+		margin-right: auto; 
+	}
 
+	#heading {
+		float: left;
+	}
+
+	#button_work {
+		float: right;
 	}
 
 	#gallery {
+		clear: both;
 		float: none;
 		width: 80%;
 	}
@@ -792,12 +882,18 @@ footer {
 		font-size: 3em;
 		top: 0.48em;
 	}
+	
+	.quotediv {
+		padding: 3em 1em;
+	}
 
 	.quotediv p {
-		width: 95%;
-		font-size: 1.8em;
+		width: 85%;
+		font-size: 1.5em;
 		line-height: 1.4em;
 	}
+
+	
 
 	#work {
 		height: 35em;
@@ -805,6 +901,10 @@ footer {
 
 	#workwrapper {
 		padding-top: 4em;
+	}
+
+	#heading hr {
+		margin-bottom: 2em;
 	}
 
 	#gallery {
@@ -837,7 +937,7 @@ footer {
 	}
 
 	#about {
-		height: 50em;
+		height: 52em;
 	}
 
 
@@ -900,7 +1000,12 @@ footer {
 		top: 92%;
 	}
 
+	.quotediv {
+		padding: 2em 1em;
+	}
+
 	.quotediv p {
+		width: 100%;
 		font-size: 1.3em;
 	}
 
@@ -910,6 +1015,14 @@ footer {
 
 	#footer_content p {
 		font-size: .4em;
+	}
+
+	#button_work a {
+		font-size: .8em;
+	}
+
+	#button_about a {
+		font-size: .8em;
 	}
 }
 
