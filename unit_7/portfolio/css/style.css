@@ -156,6 +156,8 @@ header {
 	list-style-type: none;
 	font-size: .9em;
 	letter-spacing: .2em;
+	-webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #navtop a:hover {
@@ -174,6 +176,8 @@ header {
 	background: url(../images/icons/insta_grey.svg);
 	width: 30px;
 	height: 30px;
+	-webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #insta:hover {
@@ -186,6 +190,8 @@ header {
 	margin: 0 .5em;
 	width: 30px;
 	height: 30px;
+	-webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #twitter:hover {
@@ -197,6 +203,8 @@ header {
 	background: url(../images/icons/email_grey.svg);
 	width: 30px;
 	height: 30px;
+	-webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #email:hover {
@@ -332,6 +340,8 @@ p #quote2 {
     color: white;
     padding: .2em 1em .5em;
     text-decoration: none;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
     font-size: 1em;
     cursor: pointer;
 }
@@ -364,6 +374,8 @@ p #quote2 {
 	object-fit: cover;
 	width: 50%;
 	height:12em;
+	-webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #column1:hover {
@@ -386,6 +398,8 @@ p #quote2 {
 	float: left;
 	width: 50%;
 	height:12em;
+	-webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #column2:hover {
@@ -407,6 +421,8 @@ p #quote2 {
 	float: left;
 	width: 50%;
 	height:12em;
+	-webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #column3:hover {
@@ -428,6 +444,8 @@ p #quote2 {
 	float: left;
 	width: 50%;
 	height:12em;
+	-webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #column4:hover {
@@ -527,6 +545,8 @@ aside p {
     padding: .2em 1em .5em;
     text-decoration: none;
     font-size: 1em;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
     cursor: pointer;
 }
 
@@ -542,6 +562,7 @@ aside p {
 #button_about a:hover {
 	background-color: white;
 	color: #ec008c;
+
 }
 
 
@@ -595,6 +616,8 @@ footer {
 	list-style-type: none;
 	font-size: .9em;
 	letter-spacing: .2em;
+	-webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #navfooter a:hover {
@@ -612,6 +635,8 @@ footer {
 	background: url(../images/icons/insta_white.svg);
 	width: 30px;
 	height: 30px;
+	-webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #instafooter:hover {
@@ -625,6 +650,8 @@ footer {
 	margin: 0 .5em;
 	width: 30px;
 	height: 30px;
+	-webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #twitterfooter:hover  {
@@ -637,6 +664,8 @@ footer {
 	background: url(../images/icons/email_white.svg);
 	width: 30px;
 	height: 30px;
+	-webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #emailfooter:hover  {
