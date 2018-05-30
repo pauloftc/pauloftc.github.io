@@ -323,6 +323,7 @@ p #quote2 {
 }*/
 
 #arrowbutton_work {
+	display: none;
 	color: #5b318e;
 	position: relative;
 	top: .15em;
@@ -332,7 +333,7 @@ p #quote2 {
 
 
 #button_work a {
-	display: inline-block;
+	display: none;
     background-color: #ec008c;
     font-family: avantbook, sans-serif;
     text-transform: lowercase;
