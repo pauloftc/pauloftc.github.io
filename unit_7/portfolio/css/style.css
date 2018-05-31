@@ -143,9 +143,7 @@ header {
 	margin-right: 2em;
 }
 
-.top_bar {
-	float: left;
-}
+
 
 #navtop a {
 	padding: 0 1em;
@@ -164,19 +162,25 @@ header {
 	color: #ec008c;
 }
 
-#sociallogos_top {
-	padding-top: .4em;
+.top_bar {
+	float: left;
 }
 
 .solocial_logos {
 	display: inline-block;
- }
-
-#insta {
-	background: url(../images/icons/insta_grey.svg);
 	width: 30px;
 	height: 30px;
-	-webkit-transition: all 0.15s ease-in-out;
+ }
+
+#sociallogos_top {
+	padding-top: .4em;
+}
+
+
+
+#insta {
+	background: url(../images/icons/insta_grey.svg) no-repeat;
+	-webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -188,9 +192,7 @@ header {
 #twitter {
 	background: url(../images/icons/twitter_grey.svg);
 	margin: 0 .5em;
-	width: 30px;
-	height: 30px;
-	-webkit-transition: all 0.15s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -595,9 +597,9 @@ footer {
 	float: right;
 }
 
-#sociallogos_footer {
-	padding-top: 2.5em;
+.bottom_bar {
 	float: left;
+	padding-top: 2.5em;
 }
 
 
@@ -625,18 +627,11 @@ footer {
 	color: #B0B0B0;
 }
 
-#sociallogos_footer a {
-	display: block;
-	width: 30px;
-	height: 30px;
-}
+
 
 #instafooter {
-	display: inline-block;
 	background: url(../images/icons/insta_white.svg);
-	width: 30px;
-	height: 30px;
-	-webkit-transition: all 0.15s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -646,31 +641,23 @@ footer {
 
 
 #twitterfooter  {
-	display: inline-block;
 	background: url(../images/icons/twitter_white.svg);
 	margin: 0 .5em;
-	width: 30px;
-	height: 30px;
-	-webkit-transition: all 0.15s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 #twitterfooter:hover  {
-	display: inline-block;
 	background: url(../images/icons/twitter_lightgrey.svg);
 }
 
 #emailfooter  {
-	display: inline-block;
 	background: url(../images/icons/email_white.svg);
-	width: 30px;
-	height: 30px;
-	-webkit-transition: all 0.15s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 #emailfooter:hover  {
-	display: inline-block;
 	background: url(../images/icons/email_lightgrey.svg);
 }
 
@@ -709,9 +696,13 @@ footer {
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px)
+{
+	.header_content_fix {
+		position: absolute !important;
+	}
 
-	#navtop {
+	#top_content {
 		margin-right: 1em;
 	}
 
@@ -796,7 +787,8 @@ footer {
 
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px)
+ {
 
 	body {
 		font-size: 16px;
@@ -807,7 +799,6 @@ footer {
 	}
 
 	header {
-		position: absolute;
 		top: 1.5em;
 		left: 0;
 		right: 0;
@@ -828,7 +819,6 @@ footer {
 	}
 
 	#wrappercroocked {
-		position: absolute;
 		height: 25em;
 
 	}
@@ -874,15 +864,7 @@ footer {
 		float: none;
 	}
 
-	#sociallogos_top a {
-		width: 10px;
 
-	}
-
-	#insta, #twitter, #email {
-		width: 20px;
-		height: 20px;
-	}
 	#welcome_copy {
 	    top: 60%;
 	}
