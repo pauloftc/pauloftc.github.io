@@ -846,6 +846,7 @@ footer {
 	#top_content {
 		float: none;
 		margin-top: 0;
+		margin-right: 0;
 	}
 
 	#navtop {
