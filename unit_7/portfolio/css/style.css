@@ -180,7 +180,11 @@ header {
 
 #insta {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	fill: #686868;
+=======
+	background: url(../images/icons/insta_grey.svg) no-repeat;
+>>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
 =======
 	background: url(../images/icons/insta_grey.svg) no-repeat;
 >>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
@@ -632,7 +636,11 @@ footer {
 
 #instafooter {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	fill: white;
+=======
+	background: url(../images/icons/insta_white.svg);
+>>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
 =======
 	background: url(../images/icons/insta_white.svg);
 >>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
@@ -647,8 +655,13 @@ footer {
 
 #twitterfooter  {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin: 0 .5em;
 	fill: white;
+=======
+	background: url(../images/icons/twitter_white.svg);
+	margin: 0 .5em;
+>>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
 =======
 	background: url(../images/icons/twitter_white.svg);
 	margin: 0 .5em;
@@ -659,17 +672,23 @@ footer {
 
 #twitterfooter:hover  {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	fill: #B0B0B0;
 }
 
 #emailfooter  {
 	fill: white;
 =======
+=======
+>>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
 	background: url(../images/icons/twitter_lightgrey.svg);
 }
 
 #emailfooter  {
 	background: url(../images/icons/email_white.svg);
+<<<<<<< HEAD
+>>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
+=======
 >>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
 	-webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -677,8 +696,11 @@ footer {
 
 #emailfooter:hover  {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	fill: #B0B0B0;
 =======
+=======
+>>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
 	background: url(../images/icons/email_lightgrey.svg);
 >>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
 }
@@ -721,6 +743,7 @@ footer {
 @media only screen and (max-width: 800px)
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -728,6 +751,12 @@ footer {
 		position: absolute !important;
 	}
 
+=======
+	.header_content_fix {
+		position: absolute !important;
+	}
+
+>>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
 =======
 	.header_content_fix {
 		position: absolute !important;
@@ -926,6 +955,9 @@ footer {
 =======
 		margin-top: 0;
 		margin-right: 0;
+<<<<<<< HEAD
+>>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
+=======
 >>>>>>> 860c5d6fa8ed88fe46d3e5bb3b99750563fd4319
 	}
 
