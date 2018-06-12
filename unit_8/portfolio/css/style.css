@@ -101,6 +101,7 @@ h1, h2, h3, h4 {
 	top: -8em;
 	left: -1em;
 	height: 13em;
+	 box-shadow: 0 4px 2px -2px rgba(0,0,0,0.1);
 	-webkit-transform:rotate(-2deg);
     -moz-transform:rotate(-2deg);
     -o-transform:rotate(-2deg);
@@ -260,14 +261,45 @@ label {
     transform: translate(-50%, 0);
 }
 
+.divider {
+	position: absolute;
+	bottom: -5px;
+}
+
+.divider img {
+	width: 1440px;
+}
+
+.divider2 {
+	position: absolute;
+	
+}
+
+.divider2 img {
+	width: 1440px;
+}
+
+
 /*Quote Div*/
+
 
 
 .quotediv {
 	background-color: #ec008c;
 	padding: 3em;
 	text-align: center;
+	margin-right: 0;
+	padding-right: 0;
+
+
 }
+
+/*.quotediv::before {
+	content: ("../images/divider-pink.svg");
+	text-align: right;
+	margin-right: 0;
+	background-size: 1440px 70px;
+}*/
 
 #disclamer {
 	font-size: 1em;
@@ -724,43 +756,83 @@ aside p {
 footer {
 	position: relative;
 	background-color: #686868;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
+	height: 22em;
 }
 
 #footer_content {
-	position: relative;
-	margin: 0 auto;
-	width: 90%;
-	height: 8em;
+	display: flex;
+    flex-direction: row;
+    text-align: right;
+
 }
 
-
-
-#logo_footer img {
-	width: 150px;
-	float: left;
-	padding-top: 2em;
-}
 
 #navfooter_wrapper {
-	float: right;
+	display: flex;
+    flex-flow: column;
+    margin-right: 2em;
+    justify-content: flex-end;
 }
 
-.bottom_bar {
-	float: left;
-	padding-top: 2.5em;
+#navfooter_wrapper img {
+	width: 150px;
+
 }
 
+iframe {
+	flex: 0 0 400px; 
+}
+
+.copyright p:first-child {
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	font-size: .9em;
+	letter-spacing: .2em;
+
+}
+
+.copyright p:first-chilp::after {
+	content: ('<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 145 100" style="enable-background:new 0 0 145 100;" xml:space="preserve">
+<path d="M73.2,13.5c-20.1,0-36.5,16.4-36.5,36.5c0,20.1,16.4,36.5,36.5,36.5c20.1,0,36.5-16.4,36.5-36.5
+	C109.7,29.8,93.3,13.5,73.2,13.5z M73.2,83.5c-18.5,0-33.5-15-33.5-33.5c0-18.5,15-33.5,33.5-33.5c18.5,0,33.5,15,33.5,33.5
+	C106.8,68.4,91.7,83.5,73.2,83.5z"/>
+<path d="M86.6,60.1l-5.7-3.3c0,0-1.6-1.2-2.4-0.4c-0.8,0.7-2,1.5-2.8,1.8c-0.8,0.2-2.7-1-4.3-2.6c-1.6-1.7-2.9-3.8-2.9-3.8
+	s-0.4-0.6-0.6-0.9c-0.1-0.3-0.3-0.5-0.4-0.8c-1-2.1-1.5-4.2-1-4.9c0.5-0.7,1.7-1.5,2.7-2c1-0.5,0.5-2.4,0.5-2.4l-1.1-6.4
+	c-0.2-1.3-2.4-2.2-5.1-1.3c-2.7,0.9-5.4,6-3.9,12.2c1.3,5.3,4.7,9.8,5.6,11.1c1.4,2,4.1,5.5,7.8,8c5.3,3.6,11.2,2.9,13,0.8
+	C87.8,63.1,87.7,60.7,86.6,60.1z"/>
+</svg>"");
+	background-size: 10px 10px;
+}
 
 
 #navfooter {
-	padding-top: 2.8em;
-	float: left;
-	margin-right: 2em;
+	text-align: right;
+	margin: 2em 0;
+
+}
+
+#navfooter_wrapper p {
+	display: block;
+	color: white;
+	font-size: .7em;
+	align-self: flex-end;
+}
+
+#navfooter a:last-child {
+	margin-top: 1em; 
+}
+
+.copyright {
+	align-self: flex-end;
 }
 
 #navfooter a {
-	margin: 0 1em;
+	display: block;
 	font-family: avantxlt, sans-serif;
 	color: white;
 	text-transform: uppercase;
@@ -818,13 +890,7 @@ footer {
 	fill: #B0B0B0;
 }
 
-#footer_content p {
-	position: absolute;
-	color: white;
-	font-size: .7em;
-	bottom: 5%;
-	left: 0;
-}
+
 
 
 
