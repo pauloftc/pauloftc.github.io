@@ -1,21 +1,34 @@
+/*Color 
+
+Blue: #0199ef;
+Pink: #ed008c;
+Purple: #5a318e;
+Dark Grey: #686868;
+Black: #1b1b1b;
+
+
+*/
+
+
+
 /*Fonts*/
 
 
 @font-face {
-    font-family: avantbold;
-    src: url(../fonts/ITCAvantGardeStd-Bold.otf);
+    font-family: gilroyXbold;
+    src: url(../fonts/Gilroy-ExtraBold.otf);
 }
 
 
 @font-face {
-    font-family: avantxlt;
-    src: url(../fonts/ITCAvantGardeStd-XLt.otf);
+    font-family: gilroyLight;
+    src: url(../fonts/Gilroy-Light.otf);
 }
 
 
 @font-face {
-    font-family: avantbook;
-    src: url(../fonts/ITCAvantGardeStd-Bk.otf);
+    font-family: gilroyMedium;
+    src: url(../fonts/Gilroy-Medium.otf);
 }
 
 
@@ -44,13 +57,13 @@ html, body {
 
 
 p {
-	font-family: avantxlt, sans-serif;
+	font-family: gilroyLight, sans-serif;
 	letter-spacing: .05em;
 	line-height: 1.4em;
 }
 
 h1, h2, h3, h4 {
-	font-family: avantbold, sans-serif;	
+	font-family: gilroyXbold, sans-serif;	
 }
 
 
@@ -146,7 +159,7 @@ header {
 
 #navtop a {
 	padding: 0 1em;
-	font-family: avantxlt, sans-serif;
+	font-family: gilroyLight, sans-serif;
 	color: #686868;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -240,16 +253,48 @@ label {
     width: 80%;
 }
 
-#welcome_page p {
-	font-family: avantxlt, sans-serif;
+#welcome_copy p {
+	font-family: gilroyLight, sans-serif;
 	color: white;
 	font-size: 3em;
 	letter-spacing: .05em;
 	line-height: 1.2em;
 	text-align: center;
-	/*margin: 10% 0;*/
-
 }
+
+#welcome_copy hr {
+	border:none;
+	height:.5em;
+	background-color: #ec008c;
+	width: 5em;
+	margin: .3em auto .8em;
+}
+
+#welcome_copy p:first-child {
+	font-size: 1.5em;
+}
+
+/*#welcome_page span:nth-child(2) {
+	background-color: #ed008c;
+	padding: .2em .4em;
+	color: white;
+	text-transform: uppercase;
+	border: 1px solid #ed008c;
+	font-size: .4em;
+	letter-spacing: .1em;
+}
+
+#welcome_page span:nth-child(3) {
+	padding: .2em .4em;
+	color: #ed008c;
+	text-transform: uppercase;
+	border: 1px solid #ed008c;
+	background-color: white;
+	font-size: .4em;
+	letter-spacing: .1em;
+}*/
+
+
 
 #arrow img {
 	width: 7em;
@@ -272,10 +317,10 @@ label {
 
 .divider3 {
 	position: absolute;
-	bottom: -7px;
+	top: -7px;
 	left: -10px;
     width: 110%;
-    margin: 0 auto;	
+    margin: 0 auto;		
 }
 
 .divider2 {
@@ -317,20 +362,20 @@ label {
 
 p #quote {
 	position: relative;
-	font-family: avantbold, sans-serif;	
+	font-family: gilroyXbold, sans-serif;	
 	color: #0099EF;
 	font-size: 3em;
-	top: 0.48em;
+	top: 0.45em;
 	z-index: 0;
 }
 
 p #quote2 {
-	font-family: avantbold, sans-serif;	
+	font-family: gilroyXbold, sans-serif;	
 	color: #0099EF;
 }
 
 .quotediv p {
-	font-family: avantxlt, sans-serif; 
+	font-family: gilroyLight, sans-serif; 
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
@@ -348,7 +393,7 @@ p #quote2 {
 #work {
 	position: relative;
 	overflow: hidden;
-	background-color: #5b318e;
+	background-color: #1b1b1b;
 	height: 45em;
 	width: 100%;
 }
@@ -366,6 +411,7 @@ p #quote2 {
 
 #heading h1 {
 	color: white;
+	opacity: .5;
 	font-size: 4em;
 	line-height: .7em;
 }
@@ -379,30 +425,42 @@ p #quote2 {
 	margin-bottom: 3em;
 }
 
+#heading p {
+	color: white;
+	opacity: .5;
+	margin-bottom: 2em;
+}
+
+
+
 #arrowbutton_work {
-	display: none;
-	color: #5b318e;
-	position: relative;
-	top: .15em;
+	position: absolute;
+    right: 1.15em;
+    top: .28em;
 	font-size: 2em;
+	color: #0099EF;
 	letter-spacing: -.1em;
 }
 
 
 #button_work a {
-	display: none;
+	display: inline-block;
+	position: relative;
     background-color: #ec008c;
-    font-family: avantbook, sans-serif;
+    font-family: gilroyMedium, sans-serif;
     text-transform: lowercase;
     letter-spacing:.02em;
     color: white;
-    padding: .2em 1em .5em;
+    padding: 1em 0;
+    width: 10em;
+    text-indent: -1em;
+    text-align: center;
     text-decoration: none;
+    font-size: 1em;
     -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    font-size: 1em;
     cursor: pointer;
 }
 
@@ -543,7 +601,7 @@ p #quote2 {
 
 
 .column h3 {
-	font-family: avantxlt, sans-serif;
+	font-family: gilroyLight, sans-serif;
 	color: white;
 	font-size: 1.2em;
 	letter-spacing: .05em;
@@ -574,7 +632,7 @@ p #quote2 {
 
 
 .picsheading {
-    font-family: avantxlt, sans-serif;
+    font-family: gilroyLight, sans-serif;
 	text-align: center;
 	color: white;
 	font-size: 2.5em;
@@ -593,22 +651,11 @@ p #quote2 {
 }
 
 
-
-.pics a:hover + .textimg {
-	opacity: .5;
-}
-
-
-
 .textimg {
 	position: absolute;
 	bottom: 2em;
 	left: 2em;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    opacity: 0;
+    opacity: .5;
 }
 
 .pics img {
@@ -618,7 +665,7 @@ p #quote2 {
 .pics h4 {
 	text-transform: uppercase;
 	margin-bottom: .3em;
-	font-family: avantxlt, sans-serif;
+	font-family: gilroyLight, sans-serif;
 	letter-spacing: .05em;
 }
 
@@ -633,7 +680,7 @@ p #quote2 {
 }
 
 .workpics h3 {
-	font-family: avantxlt, sans-serif;
+	font-family: gilroyLight, sans-serif;
 	text-align: center;
 	color: white;
 	font-size: 2.5em;
@@ -662,7 +709,7 @@ p #quote2 {
 	display: block;
 	text-decoration: none;
 	color: white;
-	font-family: avantxlt, sans-serif;
+	font-family: gilroyLight, sans-serif;
 	text-align: center;
 	letter-spacing: .05em;
 	opacity: .5;
@@ -733,24 +780,33 @@ aside p {
 	margin-bottom: 1.2em;
 }
 
+
+
 #button_about a {
 	display: inline-block;
+	position: relative;
     background-color: #ec008c;
-    font-family: avantbook, sans-serif;
+    font-family: gilroyMedium, sans-serif;
     text-transform: lowercase;
     letter-spacing:.02em;
     color: white;
-    padding: .2em 1em .5em;
+    padding: 1em 0;
+    width: 10em;
+    text-indent: -1em;
+    text-align: center;
     text-decoration: none;
     font-size: 1em;
-    -webkit-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
 
 #arrowbutton {
-	position: relative;
-	top: .15em;
+	position: absolute;
+    right: .8em;
+    top: .28em;
 	font-size: 2em;
 	color: #0099EF;
 	letter-spacing: -.1em;
@@ -838,7 +894,7 @@ footer {
 
 #navfooter a {
 	display: block;
-	font-family: avantxlt, sans-serif;
+	font-family: gilroyLight, sans-serif;
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -906,7 +962,7 @@ footer {
 }
 
 .form h2 {
-	font-family: avantxlt, sans-serif;
+	font-family: gilroyLight, sans-serif;
 	color: white;
 	text-transform: uppercase;
 	font-size: .9em;
@@ -922,7 +978,7 @@ footer {
 }
 
 form input, textarea {
-	font-family: avantbook, sans-serif;
+	font-family: gilroyMedium, sans-serif;
 	background-color: rgba(246, 246, 246, .75);
 	font-size: .9em;
 	letter-spacing: .05em;
@@ -940,14 +996,16 @@ form textarea {
 
 
 form button {
+	position: relative;
 	margin-top: .5em;
 	background-color: rgba(40, 41, 35, .5);
-    font-family: avantbook, sans-serif;
+    font-family: gilroyMedium, sans-serif;
     text-transform: lowercase;
     letter-spacing:.02em;
     color: white;
-    padding: 0 1em .25em;
-    width: 160px;
+    width: 10em;
+    text-indent: -1em;
+    padding: 1em 0;
     text-decoration: none;
     -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -959,11 +1017,12 @@ form button {
 }
 
 #arrowbutton-contact {
-	position: relative;
-	top: .15em;
-	font-size: 2em;
-	color: #0099EF;
-	letter-spacing: -.1em;
+	position: absolute;
+    top: .22em;
+    right: 1.3em;
+    font-size: 2em;
+    color: #0099EF;
+    letter-spacing: -.1em;
 }
 
 
@@ -979,7 +1038,7 @@ form button:hover {
 }
 
 .map h2 {
-	font-family: avantxlt, sans-serif;
+	font-family: gilroyLight, sans-serif;
 	color: white;
 	text-transform: uppercase;
 	font-size: .9em;
