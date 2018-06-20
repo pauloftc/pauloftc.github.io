@@ -3,77 +3,117 @@
 <head>
 	<title>Paulo Toni Photography</title>
 	<style>
-	  @media only screen and (max-device-width: 480px) {
-	    span[id=switcher] {
-	      display:block;
-	      background-image: url(https://pauloftc.github.io/unit_11/email_images/heading_small.jpg)!important;
-	      background-repeat: no-repeat !important;
-	      background-position: center !important;
-	      width: 480px !important;
-	      height: 98px !important;
-	    }
-	    img[id=houdini] {display: none !important;}
+	  	@media only screen and (max-width: 660px) {
+	    
+		  	.content-img img { display: none !important; }
+
+		  	.content-img {
+		  		display: block !important;
+		  		background: url(https://i.imgur.com/vOYUT1v.jpg) no-repeat center !important;
+		  		height: 98px !important;	
+		  	}      
+
+		  	.main-content img { display: none !important; }
+
+		    .main-content {	
+			    display: block !important;
+			    background: url(https://i.imgur.com/2AmPp02.jpg)no-repeat center !important;
+			    height: 429px !important;
+		    }
+
+		    .maintable {
+		    	width: 480px !important;
+		    	border: none !important;
+		    }
+
+		    .toplogo {
+		    	padding-left: 20px !important;
+		    }
+		}
+
+	    @media only screen and (max-width: 480px) {
+
+	    	.maintable {
+		    	width: 100% !important;
+		    	border: none !important;
+		    }
+
+		    table {
+			    border-spacing: 0;
+    		}
+
+	  	}
+
+	  	@media only screen and (max-width: 415px) {
+
+	    	.content-img {
+		  		display: block !important;
+		  		background: url(https://i.imgur.com/bYpZOn9.jpg) no-repeat center !important;
+		  		height: 96px !important;	
+		  	} 
+
+		  	.main-content {	
+			    display: block !important;
+			    background: url(https://i.imgur.com/BXdLqUe.jpg)no-repeat center !important;
+			    height: 429px !important;
+		    }
 
 
-	    span[id=switcher2] {
-	      display:block;
-	      background-image: url(https://pauloftc.github.io/unit_11/email_images/content_small.jpg)!important;
-	      background-repeat: no-repeat !important;
-	      background-position: center !important;
-	      width: 480px !important;
-	      height: 429px !important;
-	    }
-	    img[id=houdini2] {display: none !important;}
+		    .toplogo img {
+		    	display: none !important;
+		    }
 
-	    #maintable {
-	    	width: 480px;
-	    }
+		    .toplogo {
+		    	display: block !important;
+			    background: url(https://i.imgur.com/sJLjQDL.png)no-repeat 20px !important;
+			    height: 46px !important;
+		    }
 
-	    #toplogo {
-	    	padding-left: 20px;
-	    }
 
-	  }
+
+
+	  	}
+
+
+
 	</style>
-</head>
-<body>
+
+</head>.
+
+<body style="margin:0; padding:0;">
   <table cellspacing="0" cellpadding="0" width="100%" align="center">
     <tr>
 	    <table cellspacing="0" cellpadding="0" border="0" width="600"
-	      	align="center" id="maintable" style="font-family: sans-serif; font-weight: 100;">
+	      	align="center" class="maintable" style="font-family: sans-serif; font-weight: 100;">
 	        <tr style="color:#686868; font-size: 14px;">
-	          <td align="center" style="padding:10px;">click <a href="https://pauloftc.github.io/unit_11/email.html" style="text-decoration: none; color:#0199ef; font-weight: 800;">here</a> to view in your web browser</td>
+	          <td align="center" style="padding:5px 0 30px; font-size: 12px;">click <a href="https://pauloftc.github.io/unit_11/email.html" style="text-decoration: none; color:#0199ef; font-weight: 800;">here</a> to view in your web browser</td>
 	        </tr>
 	        <tr>
-	          <th align="left"><a href="">
-	          	<img id="toplogo" src="https://pauloftc.github.io/unit_11/email_images/logo-color.png" alt="Paulo Toni Photography Logo" title="Paulo Toni Photography Logo"></a>
+	          <th align="left"><a href="" class="toplogo">
+	          	<img src="https://i.imgur.com/IaBAtzj.png" title="Paulo Toni Photography Logo"></a>
 	          </th>
 	        </tr>
 	        <tr>
 	          <td>
-	          	<a href="#">
-				  <span id="switcher">
-				    <img id="houdini" src="https://pauloftc.github.io/unit_11/email_images/heading.jpg" alt="Special Promotion" title="Header" style="display:block;">
-				  </span>
+	          	<a href="#" class="content-img">			 
+				    <img src="https://i.imgur.com/uxRSLPY.jpg" alt="Special Promotion" title="Header" style="display:block; width:100%;">
 				</a>           
 	          </td>
 	        </tr>
 	        <tr>
 		        <td align="center">
-	        		<a href="">
-	        			<span id="switcher2">
-				          	<img id="houdini2" src="https://pauloftc.github.io/unit_11/email_images/content.jpg" alt="Buy any landscape A3 framed size photo and get free delivery*. Click Here and find your favourite shot. *Terms and conditions apply. See website for more details." title="Main Content" style="display:block">
-						</span>
+	        		<a href="" class="main-content">
+				          	<img src="https://i.imgur.com/QGAzYLA.jpg" alt="Buy any landscape A3 framed size photo and get free delivery*. Click Here and find your favourite shot. *Terms and conditions apply. See website for more details." title="Main Content" style="display:block; width:100%;">
 					</a>
 				</td>
 	        </tr>
 	        <tr>
 	          <td style="background:#efefef;">
-	            <table align="center" cellpadding="20" border="0" style="color:#686868; letter-spacing: 1.5px; font-size: 18px;">
+	            <table align="center" border="0" style=" padding: 20px;color:#686868; letter-spacing: 1.5px; font-size: 18px;">
 	              <tr>
-	                <td><a href="#" style="text-decoration: none; color:#686868;">WORK</a></td>
-	                <td><a href="#" style="text-decoration: none; color:#686868;">ABOUT</a></td>
-	                <td><a href="#" style="text-decoration: none; color:#686868;">CONCTACT</a></td>
+	                <td><a href="#" style="text-decoration: none; color:#686868; padding: 10px;">WORK</a></td>
+	                <td><a href="#" style="text-decoration: none; color:#686868; padding: 10px;">ABOUT</a></td>
+	                <td><a href="#" style="text-decoration: none; color:#686868; padding: 10px;">CONCTACT</a></td>
 	              </tr>
 	            </table>
 	          </td>
@@ -81,23 +121,25 @@
 	        
 	        <tr style="background: #686868;">
 	          <td>
-	            <table align="center" cellpadding="10" border="0" width="100%">
+	            <table align="center" border="0" width="100%" style="padding: 10px;">
 	              <tr>
-	                <td width="85" valign="bottom">
+	                <td valign="bottom" style="width:70px;">
 	                  <table border="0" cellpadding="0" cellspacing="0" valign="bottom">
 	                    <tr style="background: #686868; color:white;">
-	                      <td colspan="2" style="font-size:14px; padding-bottom: 5px;" align="center">Follow me</td>          
+	                      <td colspan="2" style="font-size:12px; padding-bottom: 5px;" align="center">Follow me</td>          
 	                    </tr>
 	                    <tr>
-	                      <td width="27" align="center">
-	                        <a href=""><img src="https://pauloftc.github.io/unit_11/email_images/insta.png" alt="Instagram Link" title="Instagram Link" valign="bottom" style="padding-right: 8px;"></a> 
+	                      <td align="center" valign="center">
+	                        <a href=""><img src="https://i.imgur.com/wQT6KKY.png" alt="Instagram Link" title="Instagram Link" valign="bottom" style="padding-right: 8px;"></a> 
 	                      </td>
-	                      <td width="27" align="center" valign="bottom"><a href=""><img src="https://pauloftc.github.io/unit_11/email_images/twitter.png" alt="Twitter Link" title="Twitter Link" valign="bottom"></a></td>     
+	                      <td align="center" valign="center">
+	                      	<a href=""><img src="https://i.imgur.com/RkNMys3.png" alt="Twitter Link" title="Twitter Link" valign="bottom"></a>
+	                      </td>     
 	                    </tr>
 	                  </table>
 	                </td>
-	                <td align="center" style="font-size: 8px; color:#afafaf;" valign="bottom">© 2018 Paulo Toni Photography. All Rights Reserved.</td>
-	                <th width="100" valign="bottom"><a href=""><img src="https://pauloftc.github.io/unit_11/email_images/logo-footer.png" alt="Paulo Toni Logo" title="Paulo Toni Logo"></a></th>               
+	                <td align="center" style="font-size: 8px; color:#afafaf; padding: 0 10px;" valign="bottom">&copy; 2018 Paulo Toni Photography. All Rights Reserved.</td>
+	                <th valign="bottom" style="width:100px;"><a href=""><img src="https://i.imgur.com/c9zi8VQ.png" alt="Paulo Toni Logo" title="Paulo Toni Logo"></a></th>               
 	              </tr>
 	            </table>
 	          </td>
